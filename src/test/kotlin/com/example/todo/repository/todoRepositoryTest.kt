@@ -108,7 +108,7 @@ class todoRepositoryTest {
 
         val newTodo = Todo().apply {
             this.index = insertTodo?.index
-            this.title = "업데이트 일정" // 주석추가 이원호
+            this.title = "업데이트 일정" // 주석추가 이원호 13:46
             this.description = "업데이트 테스트"
             this.schedule = LocalDateTime.now()
         }
